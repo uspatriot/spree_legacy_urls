@@ -1,5 +1,5 @@
 Spree Legacy Urls
-===============
+-------
 
 Provides a "Legacy URL Slug" field on the product edit page. If a URL isn't 
 located within your routes.rb file the extension will then check to see if 
@@ -7,7 +7,7 @@ any product's legacy URL slug matches it and then provide a 301 redirect to
 that product.
 
 Installation
-============
+-------
 
 1. Copy the spree_legacy_urls folder into your root Rails project directory.
 2. Add the following to your Gemfile:
@@ -18,7 +18,7 @@ Installation
 	`rails g spree_legacy_urls:install`
 
 Example
-=======
+-------
 
 If the product "ruby-on-rails-mug" had a url slug of "rails-cup.html" them both 
 of the following urls would be 301 redirected to the correct product 
