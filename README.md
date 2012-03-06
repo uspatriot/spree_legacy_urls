@@ -9,12 +9,11 @@ that product.
 Installation
 ============
 
-1. Add the following to your Gemfile
-
+1. Copy the spree_legacy_urls folder into your root Rails project directory.
+2. Add the following to your Gemfile:
 	`gem 'spree_legacy_urls', :path => 'spree_legacy_urls'`
-
-2. `rails g spree_legacy_urls:install`
-
+3. Run the installer
+	`rails g spree_legacy_urls:install`
 
 Example
 =======
