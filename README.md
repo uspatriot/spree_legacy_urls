@@ -10,9 +10,9 @@ Installation
 ============
 
 1. Add the following to your Gemfile
-<pre>
-	gem 'spree_legacy_urls', :path => 'spree_legacy_urls'
-</pre>
+
+	`gem 'spree_legacy_urls', :path => 'spree_legacy_urls'`
+
 2. `rails g spree_legacy_urls:install`
 
 
